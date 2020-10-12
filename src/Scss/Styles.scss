@@ -1,0 +1,47 @@
+body{
+  font-family: 'Playfair Display';
+  text-align: center;
+  margin: 0;
+}
+
+.App{
+  transition: 1s;
+}
+
+.toggle-switch{
+  position: absolute;
+  width: 58px;
+  height: 30px;
+  border: 1px solid rgb(14, 14, 14);
+  border-radius: 25px;
+  padding: 0 1px;
+  top: 1rem;
+  right: 1rem;
+  .item{
+    width: 28px;
+    height: 28px;
+    background: rgb(14, 14, 14);
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+}
+
+h1{
+  font-size: 50px;
+  padding: 30px 0;
+  margin: 0;
+}
+
+.post{
+  width: 600px;
+  margin: 0 auto;
+  p{
+    text-align: justify;
+    margin: 0;
+    padding: 15px 0;
+  }
+}
